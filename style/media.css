@@ -1,0 +1,888 @@
+/* ************menu************** */
+@media(max-width: 1100px) {
+    .nav_list{
+      position: fixed;
+        right: 0;
+        top: 0;
+        width: 320px;
+        height: 568px;
+        background-color:white;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: transform 300ms;
+        display: none;
+        z-index: 111;
+    }
+    .nav_link{
+        margin-top: 48px;
+    }
+    .header__burger {
+        position: fixed;
+        right: 0;
+        display: block;
+        z-index: 999;
+    }
+    .header__burger {
+        position: fixed;
+        right: 0;
+        display: block;
+        z-index: 999;
+    }
+    .header__burger {
+        width: 30px;
+        height: 20px;
+    }
+    .active {
+        transform: translateX(0);
+        color: black;
+    }
+    .nav_link.btn {
+        display: block;
+    }
+    .header__nav-btn {
+        display: none;
+    }
+  
+    @media(max-width: 1282px) {
+       .expected_boxs{
+           display: flex;
+           flex-wrap: wrap;
+       } 
+    }
+    @media(max-width: 1325px) {
+        .day_3 {
+            flex-direction: column-reverse;   
+            margin-top: unset;
+           }
+           .day_3_h_p {
+            margin: 0 auto;     
+        }
+        .d_3arrow {
+           color: white; 
+           bottom: -64%;
+           left: 19%;
+        }
+        .d_3right,.d_3left{
+            border:1px solid white;
+        }
+    }
+    @media(max-width: 1308px) {
+      .img_vulcano{
+          position: unset;
+      }
+      .vulcano{
+        flex-direction:column-reverse;  
+      }
+      .vulc_slider{
+          margin: 0;
+      }
+      .vulcano{
+        margin: 0;
+    }
+    .day_2_vulc_p{
+        max-width: unset;
+        margin: 0;
+    }  
+    .day_2_h_p{
+        margin-left: unset;
+    }
+    }
+    @media(max-width: 1276px) {
+       .vulcano_p{
+           padding-top: 5px;
+       }
+    }
+    
+     @media(max-width: 1347px) {
+     .day_4_block{
+      flex-direction: column; 
+      padding: 24px 10px 5px 10px;
+      margin: 0 auto;
+        }
+        .day_4_h_p{  
+          padding: 5px 10px 30px 10px;
+        }
+        
+        .vulc_slider{
+            margin: 0 auto;
+        }
+        .day_4arrow {
+            bottom: 22%;
+            left: 20%;
+        }
+    }
+    @media(max-width: 1336px) {
+        .eagle{
+            display: none;
+        }
+    }
+    @media(max-width: 1302px) {
+        .day_info_images{
+            flex-direction: column;
+        }
+        .day_h_p{
+            margin: 0 auto;
+            padding-bottom: 5%;
+        }
+        .intro_slider2{
+           margin: 0 auto;
+        }
+        .d_arrow{
+            bottom: -7%;
+            left: 19%;
+        }
+    }
+    @media(max-width: 1290px) {
+        .day_imag_inform{
+           flex-direction: column-reverse; 
+        } 
+        .d_7_arrow {
+            position: absolute;
+            bottom: -11%;
+            left: 18%;
+        }   
+        .day_inform_2{
+            max-width: unset;
+        }
+        .inform_p{
+            max-width: unset;
+        }
+        .services_day_7{
+            max-width: unset;
+        }
+    }
+    @media(max-width: 1281px) {
+        .network{
+            padding: 0 14px;
+            max-width: 313px;
+        }
+        .day_5{
+            flex-direction: column-reverse;
+        }
+        .day_6_info_images{
+            flex-direction: column;
+            margin-bottom: 90px;
+        }
+        .day_6arrow{
+            bottom: 11%;
+            left: 18%; 
+        }
+        .d_7liniya{
+            top: -4%;
+        }
+        .day5_arrow{
+                bottom: -6%;
+                left: 17%;
+        }
+    }
+    @media(max-width: 1264px) {
+        .trips_menu{
+            justify-content: center; 
+         }  
+    }
+    
+    @media(max-width: 1242px) {
+        .rout_h_7 {
+            font-size: 36px;
+            line-height: unset;
+        } 
+    }
+    @media(max-width: 1126px) {
+        .header{
+            background: url(../images/kamch_intro_2.png)no-repeat center / cover;
+        }
+      .intro{
+        flex-direction: column; 
+      }
+      .initial_rigt{
+        margin: 0 auto;
+        position: unset;  
+        bottom: 0;
+        margin-bottom: 15px;
+      }
+      .init_arrow{
+          bottom: 3%;
+          left: 13%;
+      }
+      .icons{
+          justify-content: right;
+          margin-bottom: 20px;
+      }
+      
+      .intro_slider2{
+          margin: 0 auto;
+      }
+      .day_2_vulc_p{
+          margin-top: 0;
+      } 
+        .day_5_slaydes{
+           margin: unset;
+        }  
+    }
+    @media(max-width: 1142px) {
+        .sign_width{
+            margin-left: 24px;
+        }
+        .con_logo_title{
+            padding-right: 19px;
+        }
+    }
+    @media(max-width: 1162px) {
+        .connection_info__{
+            flex-wrap: wrap;
+        justify-content: center;
+        } 
+      .numb_width{
+          display: none;
+      }
+    }
+    @media(max-width: 1199px) {
+        .rout_h_7{
+            font-size: 32px;
+            min-height: unset;
+        }
+    }
+    @media(max-width: 1147px) {
+        .rout_h_2{
+            font-size: 34px;
+        } 
+        .day_2_h_p{
+            margin-left: unset;
+        }
+    } 
+    @media(max-width: 1117px) {
+       .img_vulcano{
+           max-width: 531px;
+       }
+       .modal-content{
+          width: 70%;
+       } 
+    }
+    
+    @media(max-width: 1126px) {
+        .day_cloud_img {
+            max-width: 560px;
+        } 
+        .day_2_p{
+            max-width: 446px;
+        }  
+    }
+    @media(max-width: 1058px) {
+        .grcloud{
+            top: -11%;
+        }  
+        .d_7liniya {
+            top: -2%;
+        }
+        .rout_p-7{
+            max-width: unset;
+        }
+    }
+    @media(max-width: 1040px) {
+        .receive{
+           margin-left: 24px;
+        }
+        .kam_h{
+            right: -54%;
+        }   
+       }
+       @media(max-width: 1026px) {
+        .connection_info__{
+            flex-wrap: wrap;
+            align-items:center ;
+            justify-content: center;
+        }
+        .numbers{
+           margin-top: 28px; 
+        }
+        .time_p{
+            margin-bottom: 10px;
+        }
+       }
+       @media(max-width: 1000px) {
+        .trips_menu{
+           justify-content: center; 
+        }  
+        .receive{
+            margin-top: 25px;
+        }
+        .need_info{
+            padding:  0px 15px;
+        }
+        
+    }
+    @media(max-width: 966px) {
+      .img_vulcano{
+    margin-top: 25%;
+    }
+    }
+    @media(max-width: 992px) {
+     .price_h{
+         font-size: 52px;
+         margin-bottom: 38px;
+     }  
+     .participation{
+         margin-top: 39px;
+     } 
+     .enter_info_h_p{
+        margin-top: 25px;
+     }
+     
+    }
+    @media(max-width: 902px) {
+        .img_vulcano{
+            margin-top: 47%;
+            }
+    }
+    @media(max-width: 938px) {
+        .modal-content{
+            width: 84%;
+        } 
+    }
+    @media(max-width: 942px) {
+        .interval_width{
+            margin-bottom: 25px;
+        }
+     .application_info{
+     flex-direction: column;
+     align-items: center;    
+     } 
+     .online_app_h{
+         margin-right: 80px;
+     } 
+     .h_icons{
+         display: flex;
+        margin-bottom: 15px;
+     }
+    .app_icons {
+        margin-top: 17px;
+        margin-bottom: 20px;
+    } 
+    }
+    @media(max-width: 920px) {
+        .network{
+            margin-top: 28px;
+        } 
+        .numbers{
+            margin-left: 76px;
+        }
+    }
+    @media(max-width: 930px) {
+        .d_arrow{
+            left: 5%;
+        }
+    }
+    @media(max-width: 872px) {
+        .kamch_h{
+            font-size: 30px;
+          line-height: unset;
+        }
+        .day_2_vulcan{
+            flex-direction: column;
+        }
+        .day_cloud_img{
+            max-width: 444px;
+        }
+            
+        
+        .day_2_p{
+            max-width: unset;
+        }
+        .img_vulcano{
+            margin: 0;
+            }
+            .day_2images{
+                display: flex;
+                justify-content: end;
+            }
+    }
+    @media(max-width: 826px) {
+        .team_h{
+            font-size: 55px;
+            margin-top: 47px;
+        }
+        .team_p{
+            margin-top: 27px;
+            margin-bottom: 37px;
+        }
+    }
+    @media(max-width: 814px) {
+        .kamch_p{
+            line-height: unset;
+        }
+      .enter_info_h_p{
+          flex-direction: column;
+        align-items: center;
+      }  
+      .participation{
+          flex-direction: column; 
+      }
+      .armor{
+        margin-top: 44px;
+      }
+    }
+    @media(max-width: 776px) {
+        .connection_info__{
+            padding-bottom: 0;
+        } 
+        .numbers {
+            min-height: 134px;
+        }
+        .social{
+            padding-top: 17px;
+        }
+    }
+    @media(max-width: 762px) {
+        .modal-content{
+            width: 90%;
+        } 
+        .trips_menu{
+            flex-wrap: wrap;
+            margin-top: 32px;
+        }
+        .title{
+            margin-top: 50px;
+        }
+        .day_cloud_img {
+            max-width: 266px;
+            min-height: unset;
+        }
+    }
+    @media(max-width: 735px) {
+        .initial_rigt{
+            max-width: 472px;
+        }   
+        .d_7liniya {
+            top: 0%;
+        }
+        .grcloud {
+            top: -6%;
+        }
+    }
+    @media(max-width: 720px) {
+        .team_h{
+            font-size: 48px;
+            line-height: unset;
+        }
+    .need {
+        flex-direction: column;
+    } 
+    .receive{
+        margin-top: 20px;
+    }
+    .day_8{
+        min-height: 570px;
+    }}
+    @media(max-width: 714px) {
+        .kam_h{
+            display: none;
+        } 
+        .modal-content{
+            width: 92%;
+        }   
+    }
+    @media(max-width: 698px) {
+    
+    }
+    @media(max-width: 662px) {
+    .trips_info{
+        margin: 0 auto;
+    }
+    }
+    @media(max-width: 662px) {
+        .title{
+            font-size: 40px;
+        }
+        .trips_h{
+            font-size: 20px;
+            margin-top: 13px;
+        }
+        .trips_p{
+            margin-top: 14px;
+        }
+    }
+    @media(max-width: 650px) {
+        .trips {
+          min-height:626px;
+        }
+        .numbers_defition{
+            padding: 0px 10px 10px;
+        }
+    }
+    @media(max-width: 678px) {
+        .name_numbers{
+            flex-direction: column;
+            align-items: center;
+        } 
+        .name_participant{
+            margin-top: 23px;
+            margin-right: 0;
+        } 
+    }
+    @media(max-width: 684px) {
+        .rout_h_3 {
+            font-size: 34px;
+            line-height: unset;
+        }
+    }
+    
+    @media(max-width: 664px) {
+        .intro_h_1{
+            font-size: 54px;
+        }
+        .dream_tur_a{
+            font-size: 25px;
+            max-width: 402px;
+        }
+        .day_cloud_img{
+            display: none;
+        }
+    }
+    @media(max-width: 628px) {
+        .team_h{
+            font-size: 43px;
+            margin-top: 23px;
+        }  
+        .team_p {
+            margin-top: 19px;
+            margin-bottom: 31px;
+        }
+    }
+    @media(max-width: 610px) {
+      .sign_width{
+          display: none;
+      }  
+    }
+    @media(max-width: 584px) {
+        .commen_plac {
+            width: 412px;
+        }  
+    }
+    @media(max-width: 582px) {
+        .price_h {
+            font-size: 44px;
+            margin-bottom: 30px;
+        }
+        .participation {
+            margin-top: 32px;
+        }
+        .particip_h_p{
+            padding: 10px 10px 10px;
+        }
+        .net_width{
+            display: none;
+        }
+    }  
+    @media(max-width: 540px) {
+        .signing{
+            margin-top: 20px;
+        }
+    }
+    @media(max-width: 536px) {
+        .definition_info {
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 24px;
+        }
+        .online_app_h {
+            margin-right: 26px;
+        }
+        .defin_numb_p,
+         .defin_numb_p_3{
+             margin: 0;
+             padding-top: 8px;
+             padding-left: 38px;
+         }
+    }
+    @media(max-width: 532px) {
+        .img_vulcano{
+            max-width: 319px;
+        }
+    }
+    @media(max-width: 524px) {
+        .day_3_h_p{
+            background-color: white;
+        }  
+    }
+    @media(max-width: 568px) {
+        .rout_h_4{
+            font-size: 35px;
+            line-height: unset;
+            min-height: unset;
+        }
+        .team_h {
+            font-size: 37px;
+        }
+        .grcloud {
+            top: -3%;
+    }
+    }
+    @media(max-width: 548px) {
+        .intro_h_1{
+            font-size: 44px;
+        }
+        .dream_tur_a{
+            font-size: 21px;
+            max-width: 345px;
+        }
+    }
+    }
+    @media(max-width: 516px) {
+        .rout_h_8{
+            font-size: 32px;
+            line-height: unset;
+            max-width: unset;
+        }
+        .day_8{
+        min-height: 418px;
+        }
+        .rout_p_8{
+            line-height: unset;
+            margin-top: 15px;
+        }
+        .rout_h_6{
+            font-size: 32px;
+            min-height: unset;
+            line-height: unset;
+        } 
+        .day_h_p_6 {
+            padding: 10px 10px 45px 10px;
+        }   
+    }
+    @media(max-width: 488px) {
+        .team_h{
+            font-size: 30px;
+        }    
+    }
+    @media(max-width: 486px) {
+        .day_h_p{
+            padding: 0px 10px  10px;
+        }
+        .cloud{
+          margin-bottom: 5%;  
+        }
+        .expected_h_2{
+            font-size: 32px;
+        }
+        .title{
+            font-size: 35px ;
+            line-height: unset;
+            min-height: unset;
+        }
+    }
+    @media(max-width: 468px) {
+        .let_map{
+            display: flex;
+         flex-direction: column;
+        }
+        .numbers{
+            margin-left: 0;
+        }
+        .h_icons{
+            flex-direction: column;
+            margin-bottom: 0;
+        }
+        .app_icons{
+            margin-bottom: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .definition
+        .price_h{
+            font-size: 40px;
+        }
+        .price_info {
+         padding-bottom: 24px;
+        }
+        .rout_h_2{
+            font-size: 31px;
+            line-height: unset;
+        }
+        .grcloud {
+            top: -3%;
+    }
+    .d_7liniya {
+        top: -1%;
+    }
+    }
+    @media(max-width: 452px) {
+        .day_4arrow{
+            bottom: 19%;
+        }
+        .intro_h_1{
+            font-size: 37px;
+            line-height: 50px;
+        } 
+        .day_3{
+            padding-bottom: 56px;
+        }
+        .dream_tur_a{
+            font-size: 18px;
+            max-width: 303px;
+            line-height: 30px;
+        }
+        .intro_p{
+            font-size: 18px;
+        }
+        
+    }
+    @media(max-width: 452px) {
+        .dream_tur_a{
+            padding: 2px 10px 3px 10px;
+        }  
+    }
+    @media(max-width: 456px) {
+        .modal-content{
+            width: 100%;
+        }
+    }
+    @media(max-width: 434px) {
+        .commen_plac{
+            width: 291px;
+        }
+    }
+    @media(max-width: 420px) {
+        .price_h{
+            text-align: center;
+        }
+        .price_info{
+            flex-direction: column;
+           margin-left: 15px;
+           padding-bottom: 10px;
+        }
+        .enter_info_h_p {
+            margin-top: 9px;
+        }
+        .armor {
+            margin-top: 25px;
+        }
+        .rubl_p{
+            padding-top: 8px;
+        }
+        .rout_h_4{
+            font-size: 26px;
+        }  
+        .rout_h_1{
+            font-size: 25px;
+        }
+        .comment_h{
+            font-size: 20px;
+        }  
+        .rout_h_5{
+            font-size: 26px;
+            line-height: unset;
+            min-height: unset;
+        }  
+        .rout_h_6{
+            font-size: 26px;
+           line-height: unset;
+           min-height: unset;
+        }
+        .rout_h_7{
+            font-size: 26px;
+        }
+        .rout_h_1{
+            font-size: 32px;
+        } 
+    }
+    @media(max-width: 413px) {
+        .kamch_h{
+            font-size: 25px;
+        }
+        .need_email {
+            margin-top: 18px;
+        }
+        .d2_arrow {
+            left: 65%;
+        }
+    }
+    @media(max-width: 397px) {
+        .rout_h_2{
+            font-size: 26px;
+        } 
+        .rout_h_8{
+            font-size: 27px;
+        }  
+    }
+    @media(max-width: 526px) {
+        .rout_h_1{
+            font-size: 34px;
+            height: unset;
+        }  
+        .rout_p {
+            padding-top: 10px;
+        }  
+    }
+    
+    @media(max-width: 446px) {
+        .trips {
+            min-height:605px;
+          }
+          .rout_h_3 {
+              font-size: 28px;
+          }
+          .trips_h {
+            line-height: unset;
+        }
+    }
+    @media(max-width: 366px) {
+        .rout_h_1{
+            font-size: 28px;
+        }
+    }
+    @media(max-width: 340px) {
+        .inf_a_arrow{
+            margin-bottom: 10px;
+        } 
+        .init_arrow{
+            bottom: 1%;
+        } 
+        .rout_h_3{
+            font-size: 25px;
+        }
+        .rout_h_2{
+            font-size: 23px;
+        }
+        .title{
+            font-size: 26px;
+        }
+        .expected_h_2{
+            font-size: 27px;
+            padding-top: 25px;
+            padding-bottom: 24px;
+        }
+        .rout_h_7{
+            font-size: 25px;
+        }
+        .kamch_img{
+            max-width: 287px;
+        }
+    }
+    .grcloud {
+        top: -2%;
+    }
+    @media(max-width: 320px) {
+        .inf_a_arrow {
+            margin-bottom: 10px;
+        } 
+        .footer{
+            padding-top: 40px;
+        }
+        .day_8{
+          min-height:414px;  
+        }
+        .rout_h_1{
+            font-size: 27px;
+        }
+        .intro_h_1{
+            margin-top: 43px;
+        }
+        .price_h{
+            line-height: unset;
+            font-size: 34px;
+        }
+        .rout_h_4{
+            font-size: 25px;
+        }
+    }
